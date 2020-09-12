@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Открытка</title>
+</head>
+<body>
+
+<div>
+    <h1>Happy Birthday!</h1>
+
+    <p>
+        <img id="img1" src="happybirthday.png" alt="image to set">
+    </p>
+
+    <button onclick="changeImg()">Click to open</button>
+
+</div>
+<p id="demo"></p>
+<p id="demo2"></p>
+</body>
+</html>
+
+<script>
+    function changeImg() {
+        var x = document.getElementById("img1").src;
+        var imagename = x.substring(x.lastIndexOf('/')+1);
+        var img1 = "happybirthday.png"
+        var img2 = "inside.png";
+
+        document.getElementById("demo").innerHTML = imagename;
+
+        var data = (imagename.toUpperCase() === img2.toUpperCase());
+        document.getElementById("demo2").innerText = data;
+
+        if (imagename.toUpperCase() === img2.toUpperCase()){
+            document.getElementById("img1").src = img1;
+        }else{
+            document.getElementById("img1").src = img2;
+        }
+
+    }
+</script>

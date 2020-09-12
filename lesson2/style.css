@@ -1,0 +1,12 @@
+div{
+    width: 50%;
+    border: 2px solid black;
+    background-color: deepskyblue;
+    margin: 0px auto;
+    text-align: center;
+}
+button{
+    width: 120px;
+    height: 60px;
+    background-color: yellowgreen;
+}
