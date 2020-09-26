@@ -1,17 +1,26 @@
-div{
-    width: 400px;
-    height: 600px;
-    border: 5px dashed red;
-    text-align: center;
-    margin: 0 auto;
-    background-color: yellow;
+.content{
+    width: 75%;
+    float: left;
+    border: 1px solid green;
+}
+.newColor{
+    color:blue;
+    text-decoration: underline;
+}
+.menu{
+    width: 100%;
+}
+body{
+    background-color: pink;
+}
+img{
+    width: 25%;
+}
+p{
+    font-size: 18pt;
 }
 
-h1{
-    font-family: Impact;
-    font-size: 40pt;
-    margin: 5px;
-}
-.font20pt{
-    font-size: 20pt;
+span{
+    font-size: 18pt;
+    color: #00FF00;
 }

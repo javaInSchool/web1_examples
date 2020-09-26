@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Моя друга сторінка</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
     <style type="text/css">
         div{
             float: left;
@@ -24,9 +25,11 @@
             font-size: 18pt;
             color: #FF0000;
         }
-        img{
+        .img1{
             width: 100px;
-
+        }
+        .img2{
+            width: 150px;
         }
         .content{
             float: left;
@@ -40,21 +43,19 @@
 <div class="content">
     <div>
         <h2>Іграшка</h2>
-        <p>Ціна <span>100</span> гривень</p>
-        <img src="toy.png">
+        <p>Ціна <span style="color: blue;">100</span> гривень</p>
+        <img class="img1" src="toy.png">
         <p>Лялька 40см</p>
     </div>
 
     <div>
         <h2>М'яч</h2>
         <p>Ціна <span>200</span> гривень</p>
-        <img src="ball.png">
+        <img class="img2" src="ball.png">
         <p>Футбольний , ліцензійний м'яч</p>
     </div>
 
 </div>
 
-
 </body>
-
 </html>
