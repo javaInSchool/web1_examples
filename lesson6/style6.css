@@ -1,0 +1,62 @@
+.container, header, nav, article{
+    float: left;
+    width: 100%;
+}
+header{
+    background-color: lightgreen;
+    border: 1px solid black;
+    text-align: center;
+}
+nav{
+    /* background-color: green; */
+    text-align: center;
+}
+ul{
+    display: inline-block;
+    text-decoration: none;
+    width: 600px;
+    height: 60px;
+    background-color: lightgreen;
+    border-bottom: 3px solid green;
+    border-radius: 10px;
+}
+li{
+    display: inline-block;
+    width: 110px;
+    height: 60px;
+    background-color: green;
+}
+ul li a{
+    display: inline-block;
+    width: 90px;
+    height: 40px;
+    padding: 10px;
+}
+ul li a:hover{
+    background-color: #00DD00;
+}
+
+section{
+    float: left;
+    width: 80%;
+    height: 500px;
+    background-color: lightgreen;
+    border: 1px solid black;
+    margin-left: 150px;
+}
+article{
+    height: 100px;
+    background-color: #DDFFDD;
+    border-bottom: 3px solid green;
+}
+
+footer{
+    float: left;
+    width: 1200px;
+    height: 100px;
+    background-color: lightgreen;
+    text-align: center;
+    margin-left: 150px;
+}
+
+
