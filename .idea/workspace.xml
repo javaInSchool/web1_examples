@@ -21,7 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e40999d5-46bd-4100-a400-af92d6aa1f5c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson6/les6.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson6/les6.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,14 +54,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\My Web1_05092020\lesson1" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\OneDrive - School_3\[2] web\My Web1_05092020" />
       <recent name="D:\OneDrive - School_3\[2] web\My Web1_05092020\lesson4" />
       <recent name="D:\OneDrive - School_3\[2] web\My Web1_05092020\lesson3" />
       <recent name="D:\web1\lesson1" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\My Web1_05092020\lesson1" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -81,7 +80,8 @@
       <workItem from="1600497262175" duration="9409000" />
       <workItem from="1601103048191" duration="6388000" />
       <workItem from="1601709011389" duration="8718000" />
-      <workItem from="1602313901481" duration="2923000" />
+      <workItem from="1602313901481" duration="4343000" />
+      <workItem from="1602918031245" duration="6761000" />
     </task>
     <servers />
   </component>
