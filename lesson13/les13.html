@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript</title>
+    <script>
+
+    </script>
+</head>
+<body>
+<h1 id="header1">Починаємо вивчати Javascript</h1>
+
+</body>
+</html>
+<script>
+    var drawCats = function (howManyTimes) {
+        //comments
+        /* multi
+        line
+        comments
+        i-- , --i, i++, ++i */
+        for (var i = 0; i < howManyTimes; i++) {
+            console.log(i + " =^.^=");
+        }
+    };
+    drawCats(10);
+    var h1 = document.getElementById("header1");
+    h1.innerText = h1.innerText + " newText!"
+</script>
