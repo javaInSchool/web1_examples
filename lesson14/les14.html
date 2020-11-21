@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Форми</title>
+    <!-- <script>
+        console.log("Script 1");
+        var header1 = document.getElementById("header1");
+        header1.innerText = "Changed!";
+        alert("Message changed!");
+    </script> -->
+
+</head>
+<body>
+    <h1 id = "header1">Hello, world!</h1>
+
+    <h1 id = "header2">Hello, world again!</h1>
+
+    <p>Live Example</p>
+    <button onclick="delayedAlert();">Show an alert box after two seconds</button>
+    <p></p>
+    <button onclick="clearAlert();">Cancel alert before it happens</button>
+
+</body>
+</html>
+<script>
+    console.log("Script 2");
+    var header2 = document.getElementById("header1");
+    header2.innerText = "Changed!";
+    alert("Message changed!");
+
+    var timeoutID;
+    function delayedAlert() {
+        timeoutID = window.setTimeout(window.alert, 2*1000, 'That was really slow!');
+    }
+    function clearAlert() {
+        window.clearTimeout(timeoutID);
+    }
+
+    var intervalID = window.setInterval(myCallback, 500, 'Parameter 1', 'Parameter 2');
+
+    function myCallback(a, b)
+    {
+        // Your code here
+        // Parameters are purely optional.
+        console.log(a);
+        console.log(b);
+    }
+</script>
