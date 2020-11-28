@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Javascript - "Вгадай число"</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Гра "Вгадай число"</h1>
+    <p>У нас буде випадати випакове число від 1 до 100.
+    Чи зможеш ти вгадати його за 10 спроб.
+    Будемо давати підказку після кожної спроби:
+    чи вказене число більше чи менше за шукане число.</p>
+
+    <div class="form">
+        <label for="guessField">Введіть число: </label>
+        <input type="text" id="guessField" class="guessField">
+        <input type="submit" value="Спробувати!" class="guessSubmit">
+    </div>
+
+    <div class="result">
+        <p class="guesses"></p> <!-- Відображення всіх спроб -->
+        <p class="lastResult"></p> <!-- Відображення останньої спроби -->
+        <p class="lowOrHi"></p>  <!-- Відображення підказки -->
+    </div>
+
+</body>
+</html>
+<script src="myScript2.js" type="text/javascript"></script>

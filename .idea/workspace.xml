@@ -30,8 +30,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -65,6 +66,16 @@
       <recent name="D:\web1\lesson1" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/My Web1_05092020/lesson15/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -89,7 +100,9 @@
       <workItem from="1604130935409" duration="4968000" />
       <workItem from="1605340445961" duration="4731000" />
       <workItem from="1605352793942" duration="3039000" />
-      <workItem from="1605945480419" duration="4547000" />
+      <workItem from="1605945480419" duration="4999000" />
+      <workItem from="1606340919459" duration="118000" />
+      <workItem from="1606551299237" duration="17222000" />
     </task>
     <servers />
   </component>
@@ -117,5 +130,9 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2381" y="164" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601107343555" />
+    <state x="2536" y="240" key="run.anything.popup" timestamp="1606554940852">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2536" y="240" key="run.anything.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1606554940852" />
   </component>
 </project>

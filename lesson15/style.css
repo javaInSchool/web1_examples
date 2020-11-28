@@ -1,0 +1,15 @@
+html {
+    font-family: sans-serif;
+}
+
+body {
+    width: 50%;
+    max-width: 600px;
+    min-width: 480px;
+    margin: 0 auto;
+}
+
+.lastResult {
+    color: white;
+    padding: 3px;
+}
