@@ -6,7 +6,7 @@ header2.setAttribute('class','mainHeader');
 
 function changeColor(){
     var textIn = document.querySelector(".in");
-    var color = ""+textIn.value;
+    var color = ""+textIn.value; //red, green, #1234AF
     header2.style.color = color;
 }
 var inSubmit = document.querySelector('.inSubmit');
