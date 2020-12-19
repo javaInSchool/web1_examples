@@ -21,9 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e40999d5-46bd-4100-a400-af92d6aa1f5c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson14/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson14/myScript.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson14/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,24 +48,24 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lesson17" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\OneDrive - School_3\[2] web\My Web1_05092020" />
+      <recent name="D:\OneDrive - School_3\[2] web\My Web1_05092020\lesson17" />
+      <recent name="D:\My Web1_05092020\lesson1" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\OneDrive - School_3\[2] web\My Web1_05092020\lesson14" />
       <recent name="D:\OneDrive - School_3\[2] web\My Web1_05092020" />
       <recent name="D:\OneDrive - School_3\[2] web\My Web1_05092020\lesson4" />
       <recent name="D:\OneDrive - School_3\[2] web\My Web1_05092020\lesson3" />
       <recent name="D:\web1\lesson1" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\OneDrive - School_3\[2] web\My Web1_05092020\lesson17" />
-      <recent name="D:\OneDrive - School_3\[2] web\My Web1_05092020" />
-      <recent name="D:\My Web1_05092020\lesson1" />
     </key>
   </component>
   <component name="RunManager">
@@ -109,7 +106,10 @@
       <workItem from="1606340919459" duration="118000" />
       <workItem from="1606551299237" duration="18323000" />
       <workItem from="1607154053039" duration="7359000" />
-      <workItem from="1607759602789" duration="5785000" />
+      <workItem from="1607759602789" duration="6667000" />
+      <workItem from="1608280524622" duration="15000" />
+      <workItem from="1608332748141" duration="107000" />
+      <workItem from="1608365366142" duration="3241000" />
     </task>
     <servers />
   </component>
