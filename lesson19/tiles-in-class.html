@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="tiles-in-class.css" type="text/css">
+</head>
+<body>
+    <section>
+        <div class="header"><h1>Галерея з фотографій</h1></div>
+
+        <div class="tiles-wrapper">
+            <div class="tiles">
+                <ul>
+                    <li class="tile">
+                        <h2>Первая картинка</h2>
+                        <img src="pics/img1.jpg">
+                        <div class="description">
+                            <span><a href="#">Автор</a></span>
+                            <span><a href="#">Описание фотографии</a></span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="end"><h1>Дякуємо за перегляд галереї!</h1></div>
+
+    </section>
+</body>
+</html>
+
+<script type="text/javascript" language="JavaScript">
+    console.log("Hello JS!");
+    var divTiles = document.getElementsByClassName("tiles");
+    console.log(divTiles[0]);
+
+    var imgSrc = 'pics/img1.jpg';
+    var ulTiles = document.createElement('ul');
+
+    for (var i = 1; i <= 5; i++) {
+        var liTiles = document.createElement('li');
+        var h2Tiles = document.createElement('h2');
+        var imgTiles = document.createElement('img');
+        imgTiles.setAttribute('src', 'pics/img'+i+'.jpg');
+
+        liTiles.appendChild(h2Tiles);
+        liTiles.appendChild(imgTiles);
+        ulTiles.appendChild(liTiles);
+    }
+    divTiles[0].appendChild(ulTiles);
+
+</script>

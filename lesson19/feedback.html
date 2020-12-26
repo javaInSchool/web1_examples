@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <title>Подорожуємо Україною</title>
+</head>
+<body>
+<nav>
+    <ul>
+        <li>
+            <a href="feedback.html">Зворотній з'вязок</a>
+        </li>
+    </ul>
+</nav>
+
+<header>
+    <div class="hLeft">sdf</div>
+    <div class="hCenter">
+        <h1>Подорожуємо Україною!</h1>
+    </div>
+    <div class="hRight">sdf</div>
+</header>
+
+<section>
+    <article>
+        <h1 class="headerArticle">Заповніть форму зворотнього зв'язку:</h1>
+    </article>
+    <article class="feedbackForm">
+        <form role="form" id="form" method="post">
+            <div class="form-group">
+                <label for="userLangInput">Оберіть зручну мову:</label>
+                <select name="language" id="userLangInput">
+                    <option value="uk">Українська</option>
+                    <option value="ru">Русский</option>
+                    <option value="en">English</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label class="form-label" for="userNameInput">Ім'я:</label>
+                <input id="userNameInput" name="name" type="text" class="form-control">
+            </div>
+
+            <div class="form-group">
+                <label class="form-label" for="userSurnameInput">Прізвище:</label>
+                <input id="userSurnameInput" name="surname" type="text" class="form-control">
+            </div>
+
+            <div class="form-group">
+                <label class="form-label" for="userAgeInput">Вік:</label>
+                <input id="userAgeInput" name="age" type="text" class="form-control">
+            </div>
+
+            <div class="form-group">
+                <label class="form-label" for="userCourseInput">Назва туристичної поїздки:</label>
+                <input id="userCourseInput" name="party" type="text" class="form-control">
+            </div>
+
+            <div class="form-group">
+                <label class="form-label" for="userEmailInput">Email:</label>
+                <input id="userEmailInput" name="email" type="text" class="form-control">
+            </div>
+
+            <div class="form-group">
+                <label class="form-label" for="userPasswordInput">Пароль:</label>
+                <input id="userPasswordInput" name="password" type="text" class="form-control">
+            </div>
+
+            <div class="checkbox">
+                <label>
+                    <input name="remember" type="checkbox">Запам'ятати мене
+                </label>
+            </div>
+
+            <div class="form-group">
+                <button type="submit" onclick="readUserInput(); return false" class="btn btn-success">Відправити</button>
+            </div>
+        </form>
+    </article>
+</section>
+
+<footer></footer>
+</body>
+</html>
