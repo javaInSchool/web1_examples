@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Json</title>
+</head>
+<body id="body1">
+
+<h1>JavaScript Object Notation</h1>
+
+</body>
+</html>
+
+<script>
+    var myCar = {
+        "car1": {
+            "color": "red",
+            "model": "BMW",
+            "price": 4000
+        },
+        "car2": {
+            "color": "blue",
+            "model": "Mersedes",
+            "price": 6000
+        }
+    }
+
+    var heading = document.createElement('h2');
+    heading.innerText = "Колір автомобіля: ";
+    console.log(heading);
+    var data1 = document.createElement('span');
+    data1.style.fontSize = "20pt";
+    data1.style.textDecoration = "underline";
+    data1.style.color = myCar.car1.color;
+    data1.innerText = myCar.car1.color;
+
+
+    var content = document.createElement('div');
+    content.setAttribute('id','content');
+    content.appendChild(heading);
+    content.appendChild(data1);
+
+    console.log(content);
+
+    var bodyContent = document.getElementById('body1');
+    console.log(bodyContent);
+
+    bodyContent.appendChild(content);
+
+</script>

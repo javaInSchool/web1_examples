@@ -21,6 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e40999d5-46bd-4100-a400-af92d6aa1f5c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson19/tiles-in-class.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson19/tiles-in-class.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +32,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -55,17 +56,17 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\OneDrive - School_3\[2] web\My Web1_05092020\lesson14" />
-      <recent name="D:\OneDrive - School_3\[2] web\My Web1_05092020" />
-      <recent name="D:\OneDrive - School_3\[2] web\My Web1_05092020\lesson4" />
-      <recent name="D:\OneDrive - School_3\[2] web\My Web1_05092020\lesson3" />
-      <recent name="D:\web1\lesson1" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\OneDrive - School_3\[2] web\My Web1_05092020" />
       <recent name="D:\OneDrive - School_3\[2] web\My Web1_05092020\lesson17" />
       <recent name="D:\My Web1_05092020\lesson1" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\OneDrive - School_3\[2] web\My Web1_05092020\lesson20" />
+      <recent name="D:\OneDrive - School_3\[2] web\My Web1_05092020\lesson14" />
+      <recent name="D:\OneDrive - School_3\[2] web\My Web1_05092020" />
+      <recent name="D:\OneDrive - School_3\[2] web\My Web1_05092020\lesson4" />
+      <recent name="D:\OneDrive - School_3\[2] web\My Web1_05092020\lesson3" />
     </key>
   </component>
   <component name="RunManager">
@@ -112,6 +113,10 @@
       <workItem from="1608365366142" duration="5531000" />
       <workItem from="1608505584877" duration="117000" />
       <workItem from="1608937082586" duration="9773000" />
+      <workItem from="1608977238218" duration="275000" />
+      <workItem from="1608977560688" duration="1341000" />
+      <workItem from="1609164999727" duration="15000" />
+      <workItem from="1610179764737" duration="5545000" />
     </task>
     <servers />
   </component>

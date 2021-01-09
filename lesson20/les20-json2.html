@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Приклад. JSON</title>
+    <link rel="stylesheet" type="text/css" href="style4.css">
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1 id="top">Шаблон веб-сторінки. Головна сторінка</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href = "myFirstPage.html">Перша сторінка</a></li>
+            <li><a href = "mySecondPage.html">Друга сторінка</a></li>
+            <li><a href = "myThirdPage.html">Третя сторінка</a></li>
+            <li><a href = "layers.html">Приклад з шарами</a></li>
+            <li><a href = "mystery.html">Містичний лист</a></li>
+            <li><a href = "recipe.html">Улюблений рецепт</a></li>
+
+        </ul>
+    </nav>
+    <section>
+
+    </section>
+    <footer>Ми у соціальних мережах:
+        <a href = "https://www.facebook.com">
+            <img src="image/facebook.png" width="40px"></a> твітер, ютуб</footer>
+    <div class="testAbsolute">
+        <a href = "#top">Нагору</a>
+    </div>
+
+</div>
+
+</body>
+</html>
+
+<script>
+    //шукаємо елемент з назвою section
+    const section = document.querySelector('section');
+
+    //завантажуємо дані у форматі JSON з відкритого джерела або з нашого сервера
+    var requestURL = 'https://bank.gov.ua/NBUStatService/v1/statdirectory/exchange?json';
+
+    //створюємо новий запит до сервера
+    var request = new XMLHttpRequest();
+
+    //відкриваємо запит для отримання даних
+    request.open('GET', requestURL);
+
+    //встановлюємо тип відповіді від сервера, щоб переконатися, що буде надіслано саме формат JSON
+    request.responseType = 'json';
+
+    //відправляємо запит
+    request.send();
+
+    //чекаємо на отримання даних з сервера та зберігаємо у змінну dataReceived
+    request.onload = function() {
+        var dataReceived = request.response;
+        //для того, щоб переконатися , що дані отримано, виведемо їх у консоль
+        //console.log(dataReceived);
+        //console.log(dataReceived[0]["exchangedate"]);
+
+        //викликаємо метод для створення таблиці з отриманими даними
+        generateTable(dataReceived);
+    }
+
+    function generateTable(jsonObj) {
+        //створюємо таблицю з курсами валют
+        var table = document.createElement('table');
+
+        //встановлюємо атрибут id зі значенням course
+        table.setAttribute('id', 'course');
+
+        //створюємо заголовок
+        var heading = document.createElement('h2');
+        heading.innerText = "Курс валют за офіційним курсом НБУ від " + jsonObj[0]["exchangedate"];
+
+        //додаємо заголовок до блоку section
+        section.appendChild(heading);
+
+        for (var i = 0, n = jsonObj.length; i < n; i++){
+            //створюємо рядок таблиці
+            var row = document.createElement('tr');
+            //створюємо 1 комірку у рядку таблиці
+            var txt = document.createElement('td');
+            //створюємо 2 комірку у рядку таблиці
+            var rate = document.createElement('td');
+            //заповнюємо першу комірку даними
+            txt.innerText = jsonObj[i]["txt"];
+            //заповнюємо другу комірку даними
+            rate.innerText = jsonObj[i]["rate"];
+            //прикріплюємо першу комірку до рядка
+            row.appendChild(txt);
+            //прикріплюємо другу комірку до рядка
+            row.appendChild(rate);
+            //прикріплюємо рядок до таблиці
+            table.appendChild(row);
+        }
+        //прикріплюємо таблицю до блоку section
+        section.appendChild(table);
+    }
+</script>
